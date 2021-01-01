@@ -27,9 +27,9 @@ const style = {
             <div>
                 <p>
                <strong >{text}</strong><em>(zrobic do {date}) </em><br/>
-        - potwierdzenie wykonania <span> {finish}</span>
-           <button onClick={() => props.delete(id)}>X</button>
-           </p>
+                 - potwierdzenie wykonania <span> {finish}</span>
+               <button onClick={() => props.delete(id)}>X</button>
+             </p>
             </div>
         )
     }

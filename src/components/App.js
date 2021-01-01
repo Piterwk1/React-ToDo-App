@@ -61,7 +61,7 @@ changeTaskStatus = (id) => {
   render() {
     return (
     <div className="App">
-      ToDo App cuda sie dzieja
+      <h1>ToDo App</h1> 
       <AddTask/>
       <TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus}/>
     </div>
